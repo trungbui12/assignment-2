@@ -5,8 +5,8 @@ const App = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [isCelsius, setIsCelsius] = useState(true);
 
-  const API_KEY = "09a71427c59d38d6a34f89b47d75975c"; // Thay bằng API Key của bạn
-  const CITY = "Hanoi"; // Tên thành phố
+  const API_KEY = "09a71427c59d38d6a34f89b47d75975c"; 
+  const CITY = "Hanoi"; 
 
   useEffect(() => {
     const fetchWeather = async () => {
